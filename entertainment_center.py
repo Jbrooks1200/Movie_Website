@@ -1,8 +1,8 @@
 import media #importing the media.py subfolder in the media main folder.
-import fresh_tomatoes 
+import fresh_tomatoes#importing the folder Udacity made.
 
 
-def main():
+def main():#a function containing all the movies and info
 	super_troopers2 = media.Movie("Super Troopers2","A comedy about 5 highway partol officers in a dispute with Canada.",
 							"https://upload.wikimedia.org/wikipedia/en/3/30/Super_Troopers_2_poster.png",
 							"https://www.youtube.com/watch?v=H2ehN-WeGAo",
@@ -40,7 +40,7 @@ def main():
 
 	movies = [super_troopers2, snatch, deadpool, out_cold, john_wick, cutting_edge]
 
-	fresh_tomatoes.open_movies_page(movies)
+	fresh_tomatoes.open_movies_page(movies)#command that opens the fresh tomatoes page
 
 if __name__ == '__main__':
 	main()
@@ -48,4 +48,3 @@ if __name__ == '__main__':
 	
 	#print (media.Movie.VALID_RATINGS)
 	#print media.Movie.__doc__
-#print (deadpool.title)
